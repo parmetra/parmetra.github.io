@@ -1,0 +1,366 @@
+@media ( max-width:  1200px)
+	.menu
+		&_item
+			padding-right: 20px
+		&_link
+			font-size: 13px
+	.promo
+		&_header
+			font-size: 52px
+	.mobile
+		&_item
+			width: 300px
+			height: 270px
+	.footer_wrapper
+		.links > div
+			.pages
+				width: 100%
+			.apps
+				display: flex
+				flex-direction: column
+				justify-content: space-between
+@media ( max-width:  991px)
+	.menu
+		&_item
+			padding-right: 6px
+		&_link
+			font-size: 11px
+	.subheader
+		&_phone
+			font-size: 19px
+		.title_text
+			font-size: 12px
+		&_logo 
+			img
+				width: 100%
+		&_btn
+			width: 95%
+			height: 40px
+			margin-top: 21px
+	.promo
+		&_header
+			font-size: 41px
+		&_subheader
+			font-size: 28px
+	.reasons
+		&_flex
+			flex-direction: column
+			align-items: center
+		&_descr
+			width: 100%
+			margin-top: 10px
+			margin-left: 0px
+			text-align: left
+	.mobile
+		&_item
+			width: 234px
+			height: 260px
+	.conditions
+		padding: 28px 0 20px 0
+		&_block
+			margin-top: 20px
+			margin-bottom: 0px
+	.world
+		height: 450px
+		&_all_cities
+			margin-top: 200px
+	.footer_wrapper
+		.links > div
+			width: 50%
+			.pages
+				width: 100%
+@media ( max-width:  767px)
+	.menu
+		position: fixed
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		top: 0
+		left: -100%
+		width: 50%
+		height: 100vh
+		padding: 20px 15px
+		background-color: rgba(0, 0, 0, 0.9)
+		transition: 0.6s
+		&_active
+			left: 0
+		&_item
+			padding-right: 0
+			border: none
+			margin: 10px 0
+		&_link
+			font-size: 20px
+	.hamburger
+		display: block
+		position: absolute
+		right: 10px
+		top: 50%
+		transform: (translateY(-50%))
+		width: 30px
+		height: 21px
+		span
+			display: block
+			height: 3px
+			width: 100%
+			background-color: #fff
+			margin-bottom: 4px
+			transition: 0.7s all
+		&_active
+			span
+				margin-bottom: -2px
+				&:nth-child(1)
+					transform: translateY(3px) rotate(-45deg)
+				&:nth-child(2)
+					display: none
+				&:nth-child(3)
+					transform: translateY(3px) rotate(45deg)
+	.subheader
+		.xs-hidden
+			display: none
+		&_phone_mobile_version
+			display: block
+			margin-top: 10px
+			color: #ffffff
+			font-size: 20px
+			font-weight: 400
+			text-transform: uppercase
+			text-align: center
+		&_btn
+			display: block
+			margin-top: 10px
+			width: 200px
+			height: 42px
+			margin: 0 auto
+			border: 3px solid rgba(0, 0, 0, 0.07)
+			background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+	.promo
+		&_header
+			line-height: 42px
+	.mobile
+		&_item
+			width: 260px
+			height: 270px
+	.choice
+		&_bottom
+			&_text
+				padding-top: 100px
+		&_top_car_pic
+			width: 555px
+	.footer_wrapper
+		.links>div
+			.socials
+				width: 100%
+				flex-flow: row wrap
+				justify-content: start
+				align-items: center
+				align-content: flex-start
+			.pages
+				.first
+					a
+						margin: 0
+				.second
+					flex-flow: row wrap
+					margin: 0
+					a
+						margin-top: 12px
+
+
+@media ( max-width:  575px)
+	.menu
+		width: 80%
+		&_item
+			width: 100%
+			text-align: center
+			padding: 4px 0
+		&_link
+			display: block
+	.subheader
+		height: 60px
+		.title_text
+			display: none
+		&_logo
+			margin-top: 20px
+		&_phone_mobile_version
+			display: block
+			margin-top: 10px
+			color: #ffffff
+			font-size: 12px
+			font-weight: 400
+			text-transform: uppercase
+			text-align: center
+		&_btn
+			display: block
+			margin-top: 9px
+			width: 110px
+			height: 22px
+			font-size: 10px
+			margin: 0 auto
+			border: 3px solid rgba(0, 0, 0, 0.07)
+			background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+	.promo
+		padding-top: 113px
+		padding-bottom: 35px 
+		min-height: 400px
+		&_header
+			font-size: 30px
+			padding: 0 24px
+			line-height: 32px
+		&_subheader
+			padding: 0 10px
+			font-size: 20px
+			margin-top: 33px
+			line-height: 24px
+		&_descr
+			display: none
+		&_btn
+			margin-top: 72px
+			width: 210px
+			height: 50px
+			font-size: 15px
+	.reasons
+		padding: 22px 0 36px 0
+		&_descr
+			width: 100%
+			font-size: 15px
+			text-align: left
+			.header
+				font-size: 16px
+
+	.mobile
+		background: none
+		padding: 36px 0 0 0
+		.title
+			margin-top: 15px
+			font-size: 16px
+		.subtitle
+			margin-top: 11px
+			font-size: 14px
+		&_subtitle
+			padding-top: 27px
+		&_item		
+			margin-bottom: 30px
+			&_subtitle
+				font-size: 18px
+	.title
+		font-size: 16px
+	.round_icon
+		width: 100px
+		height: 100px
+
+	.choice
+		&_top
+			height: 300px
+			min-height: 390px
+			padding-top: 25px
+			&_label, &_text
+				display: none
+			&_car
+				&_text
+					display: block
+					margin: 0 auto
+					width: 249px					
+					text-align: center
+					color: #ffffff
+					font-size: 17px
+
+		&_bottom
+			display: none
+
+		&_top_car_pic
+			padding-top: 35px
+			width: 300px
+
+	.conditions
+		padding: 25px 0 26px 0
+		.title
+			margin-top: 15px
+		&_block
+			margin-top: 22px
+		&_label
+			font-size: 16px
+		&_list	
+			margin-top: 22px
+			li
+				font-size: 14px
+		&_your_car_earnings
+			font-size: 14px
+	
+	.world
+		height: 390px
+		padding-top: 25px
+		.choice_top_label
+			display: block
+			padding-top: 15px
+			color: #ffffff
+			font-size: 16px
+		.choice_top_text
+			display: block
+			padding-top: 10px
+			color: #ffffff
+			font-size: 14px
+		&_all_cities
+			margin-top: 216px
+			margin-bottom: 30px
+			font-size: 15px
+	.footer
+		&_wrapper
+			.blue_line
+				margin-top: 25px
+				width: 253px
+			.links
+				padding: 0
+				flex-direction: column
+				justify-content: flex-start
+				align-items: flex-start
+				.socials
+					margin: 0 auto
+					justify-content: center
+			.links>div
+				margin: 0 auto
+				width: 100%
+				&:nth-child(1)
+				order: 2
+				&:nth-child(2)
+					order: 1
+				&:nth-child(3)
+					order: 3
+				.pages
+					width: 100%
+					.first 
+						padding: 22px 18px 0 18px
+						a
+							margin: 0
+							font-size: 14px
+					.second
+						margin: 0
+						padding: 0 40px
+						display: flex
+						justify-content: space-between
+						align-items: center
+						flex-wrap: wrap
+						align-content: flex-start
+						a
+							font-size: 11px
+							margin-top: 13px
+					.language
+						display: block
+						margin: 13px 0 0 0
+						a
+							font-size: 11px
+				.socials
+					justify-content: center
+					padding-top: 20px
+				.apps
+					margin: 0 auto
+					padding: 20px 32px 20px 32px
+					justify-content: center
+					align-items: center
+					flex-flow: row wrap
+					.app
+						margin-right: 5px
+					.app
+						&:last-child
+							margin-right: 0
+						img
+							width: 100%
+							height: 24px
